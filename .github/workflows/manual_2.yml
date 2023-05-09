@@ -36,6 +36,6 @@ jobs:
         python-version: '3.11'
     - name: Run Python Script
       run: |
-        python -m pip install Flask, SocketIO
+        python -m pip install Flask SocketIO
         python server.py
     
